@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Account {
+    private double accountId;
     private String accountName;
     private String accountNumber;
     private double currentBalance;
@@ -12,6 +13,7 @@ public class Account {
     private double availableCredit;
     private double creditLimit;
     private String currency;
+    private String type;
 
     // Getters and Setters
     public String getAccountName() {
@@ -78,4 +80,11 @@ public class Account {
         this.currency = currency;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 }
