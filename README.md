@@ -33,8 +33,3 @@ To set up the project locally, follow these steps:
 
 ## Usage
 Once the application is running, users can view their account balances displayed clearly on the dashboard. The data is pulled from the static JSON file, allowing for easy management and visualization of financial information.
-
-## Testing
-The application includes basic manual testing. You can run the tests using Maven:
-  mvn test
-
