@@ -9,41 +9,58 @@
 
 </head>
 <body>
-    <div class="header-banner">
-        <div class="logo"></div>
-        <div class="navigation">
-            <div>home</div>
-            <div>menu 2</div>
-            <div>menu 3</div>
-            <div>menu 4</div>
+    <div role="banner" class="header-banner d-flex flex-row justify-content-between align-items-center py-3 px-5">
+        <div class="d-flex flex-row align-items-center fw-bold">
+            <div class="img-container">
+                <img class="logo-img" src="/images/vikings-logo.png" alt="vikings logo"> 
+            </div>
+            <div>vikings</div>
         </div>
-        <div class="welcome-signin"></div>
+        <nav class="nav justify-content-center fw-bold" role="navigation">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true" href="#">menu 2 - tba</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true" href="#">menu 3 - tba</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="welcome-signin d-flex flex-row align-items-center text-right">
+            <div class="img-container">
+                <img class="logo-img" src="/images/user icon.png" alt=""> 
+            </div>
+            <div>Welcome!</div>
+        </div>
     </div>
-    <div class="main">
-        <div class="overview">
-            <h2>My balances</h2>
-            <div class="ov-subcontainer">
-                <div class="own">
-                    <p>I have</p>
+    <div class="main" role="main">
+        <h1 class="visually-hidden">Home</h1>
+        <div class="card overview m-5 p-3">
+            <h2 class="fs-5">My balances</h2>
+            <div class="ov-subcontainer d-flex flex-row justify-content-evenly w-100">
+                <div id="own" class="col-6">
+                    <p class="mb-0">I have</p>
                 </div>
-                <div class="owe">
-                    <p>I owe</p>
+                <div id="owe" class="col-6">
+                    <p class="mb-0">I owe</p>
     
                 </div>
             </div>
             
         </div>
         <div class="deposit-accounts">
-            <h1>Deposit Accounts</h1>
-            <div id="deposit-container" class="container"></div>
+            <h2 class="fs-1 mb-3 text-center">Deposit Accounts</h2>
+            <div id="deposit-container" class="container d-flex flex-row justify-content-evenly"></div>
         </div>
         <div class="credit-cards">
-            <h1>Credit Cards</h1>
-            <div id="credit-container" class="container"></div>
+            <h2 class="fs-1 mb-3 text-center">Credit Cards</h2>
+            <div id="credit-container" class="container d-flex flex-row justify-content-evenly mb-5"></div>
         </div>
     </div>
-    
-    
 
     <script src="script.js"></script>
 </body>

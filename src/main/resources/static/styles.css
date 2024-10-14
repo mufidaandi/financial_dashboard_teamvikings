@@ -1,28 +1,19 @@
 
 body {
-    padding: 20px;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .main {
     width: 70%;
     margin: auto;
 }
+
 .account {
     /* border: 1px solid #ccc; */
     padding: 15px;
     margin-bottom: 10px;
     width: 45%;
-}
-
-.header-banner, .navigation {
-    display: flex;
-    flex-direction: row;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 
 h1 {
@@ -32,13 +23,6 @@ h1 {
 
 .card-title {
     margin-bottom: 0 !important;
-}
-
-.sub-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
 }
 
 .btext {
@@ -53,7 +37,10 @@ hr {
     margin: 0.5rem 0 !important;
 }
 
-.ov-subcontainer {
-    display: flex;
-    flex-direction: row;
+.img-container {
+    height: 55px;
+}
+
+.logo-img {
+    height: 100%;
 }

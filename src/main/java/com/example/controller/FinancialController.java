@@ -1,7 +1,6 @@
-package com.example.financialdashboard.controller;
-
-import com.example.financialdashboard.model.Account;
-import com.example.financialdashboard.model.AccountData;
+package com.example.controller;
+import com.example.model.Account;
+import com.example.model.AccountData;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
