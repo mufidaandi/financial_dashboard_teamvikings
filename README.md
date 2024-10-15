@@ -5,7 +5,7 @@ The **Financial Dashboard** is a web application designed to help users monitor 
 
 ## Features
 - Display of account balances for both deposit accounts (chequing and savings) and credit cards.
-- User-friendly interface with clear visuals.
+- User-friendly and accessible interface with clear and simple visuals.
 - Static JSON data handling for account information.
 
 ## Technologies Used
@@ -51,3 +51,9 @@ To set up the project locally, follow these steps:
 
 ## Usage
 Once the application is running, users can view their account balances displayed clearly on the dashboard. The data is pulled from the static JSON file, allowing for easy management and visualization of financial information.
+
+## Screen Recording
+Please find the screen recording of the project working, the commands used and how the code works seamlessly when JSON data is modified. https://screenrec.com/share/5zq4FCBWtV
+
+## Repository Link
+https://github.com/mufidaandi/financial_dashboard_teamvikings
