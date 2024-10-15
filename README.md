@@ -14,8 +14,14 @@ The **Financial Dashboard** is a web application designed to help users monitor 
 - **Data Handling**: JSON
 - **Version Control**: Git
 
-## Project Structure
+## External JSON Data Serving
 
+To enhance the performance of our application, we serve the account data in JSON format from an external source. This approach allows for quicker reflection of any changes made to the JSON file without needing to redeploy the application.
+
+### Hosting the JSON File
+
+The JSON file is hosted on [GitHub Pages](https://pages.github.com/), which provides a free and efficient way to serve static files. The URL to access the JSON data is: 
+https://mufidaandi.github.io/financial-dashboard-backend/balances.json
 
 ## Installation
 To set up the project locally, follow these steps:
