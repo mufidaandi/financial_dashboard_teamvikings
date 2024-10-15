@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('https://mufidaandi.github.io/financial-dashboard-data/balances.json')
+    fetch('/balances')
         .then(response => response.json())
         .then(data => {
             const accountsContainer = document.getElementById('accounts-container');
 
             let totalMoneyHave = 0;
             
-            data.accounts.forEach(account => {
+            data.forEach(account => {
                 
                 const accountDiv = document.createElement('div');
                 accountDiv.classList.add('card');
