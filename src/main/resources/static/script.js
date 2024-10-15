@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             let totalMoneyHave = 0;
             
-            data.forEach(account => {
+            data.accounts.forEach(account => {
                 
                 const accountDiv = document.createElement('div');
                 accountDiv.classList.add('card');
