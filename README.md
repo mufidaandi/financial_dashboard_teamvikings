@@ -14,9 +14,21 @@ The **Financial Dashboard** is a web application designed to help users monitor 
 - **Data Handling**: JSON
 - **Version Control**: Git
 
+## Wireframe
+You can view the wireframe for this project at the following link: [Wireframe Link](https://whimsical.com/team-vikings-group-challenge-financial-dashboard-wireframe-NZudMJg77TgMYbLGVPggtP).
+
+## Deployment
+This application is deployed on [Render](https://render.com) and is currently live. You can access the live application at the following URL:
+
+[Live Application](https://financial-dashboard-teamvikings.onrender.com/)
+
+### Features
+- Containerized using Docker for consistent deployment across environments.
+- JSON data is served externally for faster updates.
+
 ## External JSON Data Serving
 
-To enhance the performance of our application, we serve the account data in JSON format from an external source. This approach allows for quicker reflection of any changes made to the JSON file without needing to redeploy the application.
+To enhance the performance of our application, we serve the account data in JSON format from an external source. This approach allows quicker reflection of any changes made to the JSON file without needing to redeploy the application.
 
 ### Hosting the JSON File
 
