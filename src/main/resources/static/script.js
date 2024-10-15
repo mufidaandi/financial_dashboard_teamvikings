@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('https://mufidaandi.github.io/financial-dashboard-backend/balances.json')
+    fetch('https://mufidaandi.github.io/financial-dashboard-data/balances.json')
         .then(response => response.json())
         .then(data => {
             const accountsContainer = document.getElementById('accounts-container');
