@@ -6,16 +6,18 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Account {
     private double accountId;
     private String accountName;
-    private String accountNumber;
-    private double currentBalance;
-    private double availableFunds;
-    private double pending;
-    private double availableCredit;
-    private double creditLimit;
+    private double balance;
     private String currency;
-    private String type;
 
     // Getters and Setters
+    public double getAccountId() {
+        return accountId;
+    }
+
+    public void setAccountId(double accountId) {
+        this.accountId = accountId;
+    }
+
     public String getAccountName() {
         return accountName;
     }
@@ -24,52 +26,12 @@ public class Account {
         this.accountName = accountName;
     }
 
-    public String getAccountNumber() {
-        return accountNumber;
+    public double getBalance() {
+        return balance;
     }
 
-    public void setAccountNumber(String accountNumber) {
-        this.accountNumber = accountNumber;
-    }
-
-    public double getCurrentBalance() {
-        return currentBalance;
-    }
-
-    public void setCurrentBalance(double currentBalance) {
-        this.currentBalance = currentBalance;
-    }
-
-    public double getAvailableFunds() {
-        return availableFunds;
-    }
-
-    public void setAvailableFunds(double availableFunds) {
-        this.availableFunds = availableFunds;
-    }
-
-    public double getPending() {
-        return pending;
-    }
-
-    public void setPending(double pending) {
-        this.pending = pending;
-    }
-
-    public double getAvailableCredit() {
-        return availableCredit;
-    }
-
-    public void setAvailableCredit(double availableCredit) {
-        this.availableCredit = availableCredit;
-    }
-
-    public double getCreditLimit() {
-        return creditLimit;
-    }
-
-    public void setCreditLimit(double creditLimit) {
-        this.creditLimit = creditLimit;
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 
     public String getCurrency() {
@@ -80,11 +42,4 @@ public class Account {
         this.currency = currency;
     }
 
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
 }

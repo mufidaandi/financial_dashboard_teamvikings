@@ -1,45 +1,22 @@
 {
-    "accounts": [
-      {
-        "accountId": "001",
-        "accountName": "Savings Account",
-        "accountNumber": "1234567890",
-        "currentBalance": 5000,
-        "availableFunds": 5000,
-        "currency": "CAD",
-        "type": "Deposit"
-      },
-      {
-        "accountId": "002",
-        "accountName": "Chequing Account",
-        "accountNumber": "0987654321",
-        "currentBalance": 1200,
-        "availableFunds": 1300,
-        "currency": "CAD",
-        "type": "Deposit"
-      },
-      {
-        "accountId": "003",
-        "accountName": "Visa Card",
-        "accountNumber": "4000123456789010",
-        "currentBalance": 2000,
-        "availableCredit": 3000,
-        "pending": 150,
-        "creditLimit": 5000,
-        "currency": "CAD",
-        "type": "Credit"
-      },
-      {
-        "accountId": "004",
-        "accountName": "MasterCard",
-        "accountNumber": "5100123456789010",
-        "currentBalance": 1500,
-        "availableCredit": 2500,
-        "pending": 100,
-        "creditLimit": 4000,
-        "currency": "CAD",
-        "type": "Credit"
-      }
-    ]
-  }
-  
+  "accounts": [
+    {
+      "accountId": "001",
+      "accountName": "Savings Account",
+      "balance": 5000,
+      "currency": "CAD"
+    },
+    {
+      "accountId": "002",
+      "accountName": "Checking Account",
+      "balance": 1200,
+      "currency": "CAD"
+    },
+    {
+      "accountId": "003",
+      "accountName": "Investment Account",
+      "balance": 20000,
+      "currency": "CAD"
+    }
+  ]
+}

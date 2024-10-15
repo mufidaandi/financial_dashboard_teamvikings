@@ -16,16 +16,16 @@
             </div>
             <div>vikings</div>
         </div>
-        <nav class="nav justify-content-center fw-bold" role="navigation">
+        <nav class="nav justify-content-center" role="navigation">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">home</a>
+                    <a class="nav-link active fw-bold" aria-current="page" href="#">home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true" href="#">menu 2 - tba</a>
+                    <a class="nav-link disabled" tabindex="-1" aria-disabled="true" href="#">menu 2 (tba)</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true" href="#">menu 3 - tba</a>
+                    <a class="nav-link disabled" tabindex="-1" aria-disabled="true" href="#">menu 3 (tba)</a>
                 </li>
             </ul>
         </nav>
@@ -34,31 +34,25 @@
             <div class="img-container">
                 <img class="logo-img" src="/images/user icon.png" alt=""> 
             </div>
-            <div>Welcome!</div>
+            <div>Welcome, user!</div>
         </div>
     </div>
     <div class="main" role="main">
         <h1 class="visually-hidden">Home</h1>
-        <div class="card overview m-5 p-3">
-            <h2 class="fs-5">My balances</h2>
-            <div class="ov-subcontainer d-flex flex-row justify-content-evenly w-100">
-                <div id="own" class="col-6">
-                    <p class="mb-0">I have</p>
-                </div>
-                <div id="owe" class="col-6">
-                    <p class="mb-0">I owe</p>
-    
+
+        <div class="accounts">
+            <h2 class="fs-1 mb-3 text-center">Accounts</h2>
+            <div id="accounts-container" class="container d-flex flex-row justify-content-evenly"></div>
+        </div>
+
+        <div class="card overview m-3 p-3">
+            <div class="ov-subcontainer d-flex flex-row justify-content-between align-items-end w-100">
+                
+                <h2 class="fs-5">Total account balance</h2>
+                <div id="own">
                 </div>
             </div>
             
-        </div>
-        <div class="deposit-accounts">
-            <h2 class="fs-1 mb-3 text-center">Deposit Accounts</h2>
-            <div id="deposit-container" class="container d-flex flex-row justify-content-evenly"></div>
-        </div>
-        <div class="credit-cards">
-            <h2 class="fs-1 mb-3 text-center">Credit Cards</h2>
-            <div id="credit-container" class="container d-flex flex-row justify-content-evenly mb-5"></div>
         </div>
     </div>
 
