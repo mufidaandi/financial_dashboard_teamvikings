@@ -1,7 +1,5 @@
 # Financial Dashboard
 
-## Wireframe 
-
 ## Overview
 The **Financial Dashboard** is a web application designed to help users monitor and manage their personal finances. It provides a clear overview of account balances, including deposit accounts and credit cards. Built with Java, Spring Boot, and JavaScript, this application allows users to visualize their financial status at a glance.
 
