@@ -21,7 +21,7 @@ To enhance the performance of our application, we serve the account data in JSON
 ### Hosting the JSON File
 
 The JSON file is hosted on [GitHub Pages](https://pages.github.com/), which provides a free and efficient way to serve static files. The URL to access the JSON data is: 
-https://mufidaandi.github.io/financial-dashboard-backend/balances.json
+https://mufidaandi.github.io/financial-dashboard-data/balances.json
 
 ## Installation
 To set up the project locally, follow these steps:
